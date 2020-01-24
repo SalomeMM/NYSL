@@ -1,0 +1,164 @@
+.ginfoall {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 125px 400px 350px 1fr;
+  grid-template-areas:
+    "title title"
+    "table1 locations"
+    "table2 map"
+    "notes map";
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: rgba(172, 255, 47, 0.7);
+  border-radius: 10px;
+}
+
+.ginfotitleparent {
+  grid-area: title;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ginfotitle {
+  grid-area: title;
+  text-align: center;
+  height: fit-content;
+}
+
+.ginfotable1 {
+  grid-area: table1;
+  margin: 15px;
+  border-color: #35495e;
+  border-style: solid;
+  border-radius: 10px;
+  color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+td {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+caption {
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.ginfotable2 {
+  grid-area: table2;
+  margin: 15px;
+  border-color: #35495e;
+  border-style: solid;
+  border-radius: 10px;
+  color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  height: 315px;
+}
+
+.locations {
+  grid-area: locations;
+  margin: 15px;
+  background-color: #35495e;
+  border-radius: 10px;
+  color: #ffffff;
+  padding-left: 30px;
+  justify-content: center;
+}
+
+.locationstitle {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.maplink {
+  padding-left: 60px;
+}
+
+#maplinkall {
+  padding: 0;
+  text-decoration: underline;
+}
+
+#clickformap {
+  text-align: right;
+  text-align: bottom;
+  font-size: 12px;
+  padding-right: 15px;
+  padding-top: 20px;
+}
+
+.ginfomap {
+  grid-area: map;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+#locationmap {
+  border-radius: 10px;
+  border-color: #35495e;
+}
+
+.ginfoadditional {
+  grid-area: notes;
+}
+
+#fall_schedule {
+  font-weight: bold;
+}
+
+#locationstitle {
+  text-align: center;
+  font-weight: bold;
+}
+
+.ginfoadditional {
+  margin: 20px;
+}
+
+.contactcontent {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 50px;
+}
+
+.contactsection {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: fit-content;
+  background-color: rgba(172, 255, 47, 0.7);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+#contactemail {
+  color: #35495e;
+  font-style: italic;
+}
+
+.envelope {
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+}
+
+#envelope {
+  color: #ffffff;
+}
+#envelope.grow {
+  transition: all 0.2s ease-in-out;
+}
+#envelope:hover {
+  transform: scale(1.5);
+}

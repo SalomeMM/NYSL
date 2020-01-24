@@ -1,0 +1,175 @@
+.aboutcontent {
+  display: flex;
+  flex-direction: row;
+  margin-right: 300px;
+  margin-left: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.aboutmisvis {
+  display: flex;
+  flex-direction: column;
+  width: 64%;
+}
+
+.aboutgen {
+  display: flex;
+  flex-direction: column;
+  width: 36%;
+}
+
+.aboutsection {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 10px;
+  width: vw;
+  background-color: rgba(172, 255, 47, 0.7);
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.abouttitle {
+  padding-bottom: 10px;
+}
+
+.contactcontent {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 50px;
+}
+
+.contactsection {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: fit-content;
+  background-color: rgba(172, 255, 47, 0.7);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+#contactemail {
+  color: #35495e;
+  font-style: italic;
+}
+
+.envelope {
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+}
+
+#envelope {
+  color: #ffffff;
+}
+#envelope.grow {
+  transition: all 0.2s ease-in-out;
+}
+#envelope:hover {
+  transform: scale(1.5);
+}
+
+.ginfotitle {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.ginfocontent {
+  display: flex;
+  flex-direction: row;
+}
+
+.ginfoschedule {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/*beginning rules*/
+
+.rulespageall {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 60px;
+  margin-left: 60px;
+  background-color: rgba(172, 255, 47, 0.7);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.rulespageheader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.rulespagecontent {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+ul {
+  padding-inline-start: 40px;
+}
+
+ol {
+  padding-inline-start: 30px;
+}
+
+h1 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.allrules {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.pdfdownload {
+  text-justify: center;
+  background-color: #35495e;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.pdfdownloadparent {
+  display: flex;
+  justify-content: center;
+}
+
+/*end rules*/
