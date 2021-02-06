@@ -1,6 +1,6 @@
 # NYSL
 Football league website with game info, locations and registration form. Used: HTML + CSS.   
-Deployed:
+Deployed: https://sad-morse-8bd86a.netlify.app/
 
 Applied:
 - HTML
