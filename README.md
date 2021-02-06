@@ -6,5 +6,5 @@ Applied:
 - HTML
 - CSS
 
-First project of the "Full Stack Web Development with JavaScript and MERN" bootcamp at Ubiqum Code Academy:
+First project for the "Full Stack Web Development with JavaScript and MERN" Bootcamp at Ubiqum Code Academy:
 https://ubiqum.com/programs/web-development-with-javascript-program/
